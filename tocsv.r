@@ -9,3 +9,11 @@ data <- get(object_name)
 
 # Write the data to a CSV file
 write.csv(data, file="mysavefile.csv")
+
+# Analysing the r data file
+
+# Find dimension of rda file
+print(dim(data))
+
+# Print data
+head(data, 20)
